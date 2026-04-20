@@ -467,9 +467,12 @@
 
     /* ── Pause carousel on touch ── */
     (function touchCarousel() {
-      const track = document.getElementById('carouselTrack');
-      track.addEventListener('touchstart', () => { track.style.animationPlayState = 'paused'; }, { passive: true });
-      track.addEventListener('touchend',   () => { track.style.animationPlayState = 'running'; }, { passive: true });
+      const track  = document.getElementById('carouselTrack');
+      const pause  = () => { track.style.animationPlayState = 'paused';  };
+      const resume = () => { track.style.animationPlayState = 'running'; };
+      track.addEventListener('touchstart',  pause,  { passive: true });
+      track.addEventListener('touchend',    resume, { passive: true });
+      track.addEventListener('touchcancel', resume, { passive: true }); /* Bug fix: chamada/bloqueio de tela */
     })();
 
     /* ── FAQ accordion ── */
