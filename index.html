@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dra. Taise Torres · Estética que Transforma</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,700;1,400;1,700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       HERO  — 100vw × 100vh
+  ════════════════════════════════ -->
+  <section class="hero">
+
+    <!-- Camada de fundo -->
+    <div class="hero__bg">
+      <picture>
+        <source media="(max-width: 860px)" srcset="img/heromobile.png" />
+        <img src="img/hero.png" alt="Dra. Taise Torres — Estética Avançada" />
+      </picture>
+    </div>
+
+    <!-- Overlay para legibilidade do texto -->
+    <div class="hero__overlay" aria-hidden="true"></div>
+
+    <!-- Conteúdo -->
+    <div class="container">
+      <div class="hero__content">
+
+        <h1 class="hero__title">
+          <span class="t-sans">Harmonização Glútea</span>
+          <span class="t-serif t-serif--accent">Estética<br>Sem PMMA</span>
+        </h1>
+
+        <p class="hero__sub">
+          A criadora do método <strong>Modela Glúteos</strong> e referência em
+          Estética Avançada com resultados naturais no Rio de Janeiro.
+        </p>
+
+        <a href="#reservar" class="btn">Quero minha melhor versão</a>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ═══════════════════════════════
+       GALLERY
+  ════════════════════════════════ -->
+  <section class="gallery stack">
+    <div class="container">
+
+      <!-- Faixa de credenciais -->
+      <div class="trust-strip" role="list" aria-label="Números da clínica">
+        <div class="trust-item" role="listitem">
+          <strong>500+</strong>
+          <span>Pacientes atendidas</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item" role="listitem">
+          <strong>100%</strong>
+          <span>Livre de PMMA</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item" role="listitem">
+          <strong>5 ★</strong>
+          <span>Avaliação média</span>
+        </div>
+        <div class="trust-divider" aria-hidden="true"></div>
+        <div class="trust-item" role="listitem">
+          <strong>+3 anos</strong>
+          <span>De experiência</span>
+        </div>
+      </div>
+
+      <h2 class="gallery__title">
+        <span class="t-sans">Menos artifício,</span>
+        <span class="t-serif t-serif--accent">mais você.</span>
+      </h2>
+
+      <div class="gallery__grid">
+
+        <!-- Card 1 -->
+        <div class="gallery__card">
+          <div class="ba-toggle" data-toggle>
+            <img class="ba-img ba-img--before" src="img/antes1.png" alt="Antes do procedimento 1" loading="lazy" />
+            <img class="ba-img ba-img--after"  src="img/depois1.png" alt="Depois do procedimento 1" loading="lazy" />
+            <span class="ba-state-label">Antes</span>
+            <button class="ba-switch" aria-label="Ver resultado depois">Ver depois</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="gallery__card">
+          <div class="ba-toggle" data-toggle>
+            <img class="ba-img ba-img--before" src="img/antes2.png" alt="Antes do procedimento 2" loading="lazy" />
+            <img class="ba-img ba-img--after"  src="img/depois2.png" alt="Depois do procedimento 2" loading="lazy" />
+            <span class="ba-state-label">Antes</span>
+            <button class="ba-switch" aria-label="Ver resultado depois">Ver depois</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="gallery__card">
+          <div class="ba-toggle" data-toggle>
+            <img class="ba-img ba-img--before" src="img/antes3.png" alt="Antes do procedimento 3" loading="lazy" />
+            <img class="ba-img ba-img--after"  src="img/depois3.png" alt="Depois do procedimento 3" loading="lazy" />
+            <span class="ba-state-label">Antes</span>
+            <button class="ba-switch" aria-label="Ver resultado depois">Ver depois</button>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="gallery__card">
+          <div class="ba-toggle" data-toggle>
+            <img class="ba-img ba-img--before" src="img/antes4.png" alt="Antes do procedimento 4" loading="lazy" />
+            <img class="ba-img ba-img--after"  src="img/depois4.png" alt="Depois do procedimento 4" loading="lazy" />
+            <span class="ba-state-label">Antes</span>
+            <button class="ba-switch" aria-label="Ver resultado depois">Ver depois</button>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="gallery__card">
+          <div class="ba-toggle" data-toggle>
+            <img class="ba-img ba-img--before" src="img/antes5.png" alt="Antes do procedimento 5" loading="lazy" />
+            <img class="ba-img ba-img--after"  src="img/depois5.png" alt="Depois do procedimento 5" loading="lazy" />
+            <span class="ba-state-label">Antes</span>
+            <button class="ba-switch" aria-label="Ver resultado depois">Ver depois</button>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="gallery__card">
+          <div class="ba-toggle" data-toggle>
+            <img class="ba-img ba-img--before" src="img/antes6.png" alt="Antes do procedimento 6" loading="lazy" />
+            <img class="ba-img ba-img--after"  src="img/depois6.png" alt="Depois do procedimento 6" loading="lazy" />
+            <span class="ba-state-label">Antes</span>
+            <button class="ba-switch" aria-label="Ver resultado depois">Ver depois</button>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="gallery__caption">
+        O antes e depois de procedimentos realizados com precisão técnica
+        e foco na <em>sua melhor versão.</em>
+      </p>
+
+      <a href="#reservar" class="btn btn--center">Quero minha melhor versão</a>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       BOOKING
+  ════════════════════════════════ -->
+  <section class="booking stack" id="reservar">
+    <div class="container">
+
+      <!-- Info lado esquerdo -->
+      <div class="booking__info">
+        <h2 class="booking__title">
+          <span class="t-sans">Reserve sua</span>
+          <span class="t-serif">data e horário</span>
+        </h2>
+
+        <p class="booking__sub">
+          Preencha os campos ao lado para que nossa equipe entre em contato
+          e reserve o melhor horário para sua avaliação.
+        </p>
+
+        <div class="booking__trust">
+          <div class="booking__trust-item">Atendimento personalizado</div>
+          <div class="booking__trust-item">Resposta em até 24 horas</div>
+          <div class="booking__trust-item">Sem compromisso na avaliação</div>
+        </div>
+      </div>
+
+      <form class="form-card" id="bookingForm" novalidate>
+
+        <div class="form-group">
+          <label for="nome">Seu nome completo</label>
+          <input
+            type="text" id="nome" name="nome"
+            placeholder="Maria da Silva"
+            required autocomplete="name"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Seu melhor e-mail</label>
+          <input
+            type="email" id="email" name="email"
+            placeholder="maria@email.com"
+            required autocomplete="email"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="whatsapp">WhatsApp</label>
+          <input
+            type="tel" id="whatsapp" name="whatsapp"
+            placeholder="(11) 99999-9999"
+            maxlength="15" required autocomplete="tel"
+          />
+        </div>
+
+        <button type="submit" class="btn">Quero reservar minha avaliação</button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       TESTIMONIALS
+  ════════════════════════════════ -->
+  <section class="testimonials stack">
+    <div class="container">
+      <div class="testimonials__header">
+        <h2 class="testimonials__title">O que dizem sobre nós</h2>
+        <p class="testimonials__sub">Histórias reais de transformação e confiança</p>
+      </div>
+    </div>
+
+    <div class="carousel-outer">
+      <div class="carousel-track" id="carouselTrack" aria-live="off"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       SOBRE A DRA. TAISE
+  ════════════════════════════════ -->
+  <section class="about stack" id="sobre">
+    <div class="container">
+
+      <div class="about__grid">
+
+        <!-- Coluna: texto -->
+        <div class="about__text">
+
+          <p class="about__eyebrow">Quem está cuidando de você</p>
+
+          <h2 class="about__title">
+            <span class="t-serif">Quem é a<br>Dra. Taise?</span>
+          </h2>
+
+          <p class="about__bio">
+            Especialista em Estética Avançada e mentora do método
+            <strong>Modela Glúteos</strong>, a Dra. Taise construiu sua prática em torno
+            de um princípio: resultados naturais, seguros e <em>sem PMMA</em>.
+            Mais de <strong>500 pacientes atendidas</strong> confirmam o que
+            sua técnica entrega.
+          </p>
+
+          <a href="#reservar" class="btn about__cta">
+            Quero ser atendida pela Dra. Taise
+          </a>
+
+        </div>
+
+        <!-- Coluna: foto -->
+        <div class="about__photo-wrap">
+          <img
+            src="img/dra.png"
+            alt="Dra. Taise Torres"
+            class="about__photo"
+            loading="lazy"
+          />
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FAQ — ACCORDION
+  ════════════════════════════════ -->
+  <section class="faq stack">
+    <div class="container">
+
+      <div class="faq__rule" aria-hidden="true"></div>
+
+      <h2 class="faq__title">Dúvidas frequentes</h2>
+
+      <div class="faq__accordion" role="list">
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__btn" aria-expanded="false">
+            <span class="faq__q-label">Tenho medo de resultados artificiais. Como sei que ficarei natural?</span>
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq__panel" role="region">
+            <div class="faq__panel-inner">
+              <p class="faq__a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+              <p class="faq__answer-label">Resposta da Dra. Taise</p>
+              <p class="faq__a">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident deserunt mollit anim id est laborum. A técnica utilizada preserva sua expressão natural.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__btn" aria-expanded="false">
+            <span class="faq__q-label">Os procedimentos são seguros? Quais os riscos?</span>
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq__panel" role="region">
+            <div class="faq__panel-inner">
+              <p class="faq__a">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              <p class="faq__answer-label">Resposta da Dra. Taise</p>
+              <p class="faq__a">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit. Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Todos os produtos utilizados são 100% livres de PMMA.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq__item" role="listitem">
+          <button class="faq__btn" aria-expanded="false">
+            <span class="faq__q-label">Quanto tempo dura o resultado e como é a manutenção?</span>
+            <svg class="faq__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"/>
+            </svg>
+          </button>
+          <div class="faq__panel" role="region">
+            <div class="faq__panel-inner">
+              <p class="faq__a">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+              <p class="faq__answer-label">Resposta da Dra. Taise</p>
+              <p class="faq__a">Nam libero tempore cum soluta nobis eligendi optio cumque nihil impedit quo minus maxime placeat facere possimus. A manutenção é simples e os resultados são duradouros com os cuidados corretos indicados em consulta.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ════════════════════════════════ -->
+  <footer>
+    <div class="footer__inner">
+
+      <!-- Esquerda: marca -->
+      <div class="footer__col">
+        <span class="footer__brand">Dra. Taise Torres</span>
+        <span class="footer__tagline">Estética Avançada · Rio de Janeiro</span>
+      </div>
+
+      <!-- Centro: Instagram -->
+      <a
+        class="footer__insta"
+        href="https://www.instagram.com/dra.taisetorres/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram da Dra. Taise Torres"
+      >
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <circle cx="12" cy="12" r="4"/>
+          <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+        @dra.taisetorres
+      </a>
+
+      <!-- Direita: endereço + copyright -->
+      <div class="footer__col footer__col--right">
+        <span class="footer__address">
+          Shopping Nova América, Del Castilho<br />
+          Rio de Janeiro, RJ · 20765-000
+        </span>
+        <span class="footer__copy">&copy; 2026 Dra. Taise Torres. Todos os direitos reservados.</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════
+       JAVASCRIPT
+  ════════════════════════════════ -->
+  <script>
+    /* ── Before / After toggle ── */
+    (function initToggles() {
+      document.querySelectorAll('[data-toggle]').forEach(toggle => {
+        const btn   = toggle.querySelector('.ba-switch');
+        const label = toggle.querySelector('.ba-state-label');
+
+        btn.addEventListener('click', () => {
+          const isAfter = toggle.classList.toggle('is-after');
+          label.textContent  = isAfter ? 'Depois' : 'Antes';
+          btn.textContent    = isAfter ? 'Ver antes' : 'Ver depois';
+          btn.setAttribute('aria-label', isAfter ? 'Ver imagem antes' : 'Ver resultado depois');
+        });
+      });
+    })();
+
+    /* ── Testimonials data ── */
+    const TESTIMONIALS = [
+      {
+        name: 'Ana Paula M.',
+        city: 'São Paulo, SP',
+        text: 'Minha experiência foi incrível! A Dra. Taise é extremamente cuidadosa e os resultados superaram todas as minhas expectativas. Me sinto muito mais confiante.'
+      },
+      {
+        name: 'Juliana Santos',
+        city: 'Rio de Janeiro, RJ',
+        text: 'Tinha muito medo de procedimentos estéticos, mas a Dra. Taise me passou total segurança. O resultado ficou super natural, exatamente o que eu queria.'
+      },
+      {
+        name: 'Fernanda Lima',
+        city: 'Belo Horizonte, MG',
+        text: 'Profissionalismo impecável! A clínica é bem equipada, o ambiente é acolhedor e o atendimento do começo ao fim é de excelência. Já recomendei para todas as amigas.'
+      },
+      {
+        name: 'Camila Rodrigues',
+        city: 'Curitiba, PR',
+        text: 'Já fiz dois procedimentos com a Dra. Taise e os resultados foram perfeitos. Ela respeita a individualidade de cada paciente e foca em realçar a beleza natural.'
+      },
+      {
+        name: 'Patricia Oliveira',
+        city: 'Brasília, DF',
+        text: 'A Dra. Taise tem um olhar artístico e técnico ao mesmo tempo. Explicou todo o procedimento com calma e o resultado ficou absolutamente natural. Maravilhosa!'
+      },
+      {
+        name: 'Mariana Costa',
+        city: 'Porto Alegre, RS',
+        text: 'Saí da consulta com a autoestima lá em cima. A abordagem dela é diferente, sem exageros, sempre focada no que é melhor para cada paciente individualmente.'
+      }
+    ];
+
+    /* ── Build carousel (original + duplicate for infinite loop) ── */
+    (function buildCarousel() {
+      const track    = document.getElementById('carouselTrack');
+      const allCards = [...TESTIMONIALS, ...TESTIMONIALS];
+
+      allCards.forEach(t => {
+        const initials = t.name.split(' ').slice(0, 2).map(w => w[0]).join('');
+        const card     = document.createElement('div');
+        card.className = 't-card';
+        card.setAttribute('role', 'article');
+        card.innerHTML = `
+          <div class="t-card__stars" aria-label="5 estrelas">★★★★★</div>
+          <p class="t-card__text">${t.text}</p>
+          <div class="t-card__author">
+            <div class="t-card__avatar" aria-hidden="true">${initials}</div>
+            <div>
+              <p class="t-card__name">${t.name}</p>
+              <p class="t-card__location">${t.city}</p>
+            </div>
+          </div>`;
+        track.appendChild(card);
+      });
+    })();
+
+    /* ── Pause carousel on touch ── */
+    (function touchCarousel() {
+      const track = document.getElementById('carouselTrack');
+      track.addEventListener('touchstart', () => { track.style.animationPlayState = 'paused'; }, { passive: true });
+      track.addEventListener('touchend',   () => { track.style.animationPlayState = 'running'; }, { passive: true });
+    })();
+
+    /* ── FAQ accordion ── */
+    (function faqAccordion() {
+      document.querySelectorAll('.faq__btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const item   = btn.closest('.faq__item');
+          const isOpen = item.classList.contains('is-open');
+
+          /* Close all */
+          document.querySelectorAll('.faq__item').forEach(i => {
+            i.classList.remove('is-open');
+            i.querySelector('.faq__btn').setAttribute('aria-expanded', 'false');
+          });
+
+          /* Open clicked if it was closed */
+          if (!isOpen) {
+            item.classList.add('is-open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+    })();
+
+    /* ── WhatsApp mask: (99) 99999-9999 ── */
+    (function waMask() {
+      const el = document.getElementById('whatsapp');
+
+      el.addEventListener('input', e => {
+        const raw = e.target.value.replace(/\D/g, '').slice(0, 11);
+        let masked = '';
+        if      (raw.length === 0)  masked = '';
+        else if (raw.length <= 2)   masked = '(' + raw;
+        else if (raw.length <= 6)   masked = '(' + raw.slice(0,2) + ') ' + raw.slice(2);
+        else if (raw.length <= 10)  masked = '(' + raw.slice(0,2) + ') ' + raw.slice(2,6) + '-' + raw.slice(6);
+        else                        masked = '(' + raw.slice(0,2) + ') ' + raw.slice(2,7) + '-' + raw.slice(7);
+        e.target.value = masked;
+      });
+
+      el.addEventListener('keydown', e => {
+        const safe = ['Backspace','Delete','Tab','ArrowLeft','ArrowRight','Home','End'];
+        if (!safe.includes(e.key) && !/^\d$/.test(e.key)) e.preventDefault();
+      });
+    })();
+
+    /* ── Form submit ── */
+    document.getElementById('bookingForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const nome     = document.getElementById('nome').value.trim();
+      const email    = document.getElementById('email').value.trim();
+      const whatsapp = document.getElementById('whatsapp').value.trim();
+
+      if (!nome || !email || !whatsapp) {
+        alert('Por favor, preencha todos os campos.');
+        return;
+      }
+
+      const emailValido = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      if (!emailValido) {
+        alert('Por favor, insira um e-mail válido.');
+        return;
+      }
+
+      const waDigits = whatsapp.replace(/\D/g, '');
+      if (waDigits.length < 10) {
+        alert('Por favor, insira um WhatsApp válido com DDD.');
+        return;
+      }
+
+      /* ⚠️ Substitua pelo seu webhook/API real */
+      alert('Obrigada, ' + nome + '! Em breve entraremos em contato via WhatsApp.');
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
